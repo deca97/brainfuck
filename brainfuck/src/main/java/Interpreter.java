@@ -17,7 +17,7 @@ public class Interpreter extends gramBaseVisitor{
     @Override
     public Integer visitPlus(gramParser.PlusContext ctx) {
         ++buffer[index];
-        System.out.println("Value on the pointer ["+ index + "]: " + buffer[index]);
+        //System.out.println("Value on the pointer ["+ index + "]: " + buffer[index]);
         return buffer[index];
     }
 
